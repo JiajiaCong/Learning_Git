@@ -2,6 +2,7 @@ Git
 ===
 学习的环境是在电脑的E盘下，有一个Github的文件夹，文件夹下面有一个叫做test的文件夹。文件夹里有两个文档，一个是hi.txt，一个是hi2.txt.
 
+
 - ls
 - pwd
 - cd \<project file>
