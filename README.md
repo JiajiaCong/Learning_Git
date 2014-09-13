@@ -2,7 +2,7 @@ Git
 ===
 学习的环境是在电脑的E盘下，有一个Github的文件夹，文件夹下面有一个叫做test的文件夹。文件夹里有两个文档，一个是hi.txt，一个是hi2.txt.
 
-更为详细的Git的基本命令，请见这个网址\(https://github.com/progit/progit/blob/master/zh/02-git-basics/01-chapter2.markdown\)
+更为详细的Git的基本命令，请见这个网址\(https://github.com/progit/progit/blob/master/zh/02-git-basics/01-chapter2.markdown)
 
 #基本的Git命令
 
