@@ -43,8 +43,8 @@ Git
 - cd \<copied project\> 进入到克隆到本地的项目
 - git remote 查看远程库的名字，会返回origin这个git默认的该项目的原始仓库
 - git remote -v 可以显示对应的克隆地址，如果有多个远程仓库，那么这个命令会列出所有的远程仓库。但是只有地址是以SSH URL的远程仓库才能推送数据上去。
-- 要添加一个新的远程仓库，可以指定一个简单的名字，以便将来方便引用。运行命令 git remote add [shortname] [url]，运行了这个命令之后，就会有shortname来指代这个远程仓库的名字。比如，git remote add pandoc git@github.com:JiajiaCong/Pandoc.git
+- git remote add [shortname] [url], 要添加一个新的远程仓库，可以指定一个简单的名字，以便将来方便引用。运行命令 git remote add [shortname] [url]之后，就会有shortname来指代这个远程仓库的名字。比如，git remote add pandoc git@github.com:JiajiaCong/Pandoc.git或者git remote add origin git@github.com:JiajiaCong/Pandoc.git
 - git fetch shortname/remote-name，从shortname说指代的仓库中来获取本地仓库中还没有的东西。
 - git pull shortname/remote-name,将远程仓库中的内容抓取下来，并且将远端分支自动合并到本地仓库中。
-- git remote rename 原来名字 新名字,这个名字是将远程仓库改名，由原来的名字改为新名字
+- git remote rename originalname newname,这个名字是将远程仓库改名，由原来的名字改为新名字
 - git remote rm remote-name/shortname，将remote-name或shortname代表的远程仓库移除。
