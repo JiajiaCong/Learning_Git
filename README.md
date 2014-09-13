@@ -10,7 +10,7 @@ Git
 
 假如这个电脑以前从来没有连接过github，或者已经连接过github，你现在想设定一下或者重新设定一下，让这个电脑能够连接到你的github账户。那么你必须需要一个ssh key, 这个ssh key必须同时在你的电脑里，这个key也需要在你github账户ssh key中。
 
-首先打开C:\Users\用户名 这个文件夹，这个文件夹下会有一个.ssh的文件。如果已经有了，说明这个电脑曾经能够连接到自己的github账户，删除这个.ssh 文件夹。下面我们要生成一个新的.ssh文件。
+首先打开C:\Users\用户名 这个文件夹，查看这个文件夹下是否有一个.ssh的文件。如果已经有了，说明这个电脑曾经能够连接到自己的github账户，删除这个.ssh 文件夹。下面我们要生成一个新的.ssh文件。
 
 在bash中输入生成ssh key的命令     
 ssh-keygen -t rsa -C "jiajiacong@gmail.com"
