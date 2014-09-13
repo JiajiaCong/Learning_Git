@@ -36,7 +36,11 @@ Git
 - git diff 这个命令是为了显示你修改前和修改后的文档有什么不同。比如我修改了hi.txt中的内容，git diff就会显示出hi.txt中修改的部分。
 	如果我先用了git add . , 那么再使用git diff就不能够显示出修改的部分了，因为修改后的文件已经被staged了。那么这种情况下可以使用git diff --cached来显示不同的地方。
 
-- git mv hi.txt hey.txt,这个命令是修改文件名, 把文件由hi.txt改名为了hey.txt  
+- git mv hi.txt hey.txt,这个命令是修改文件名, 把文件由hi.txt改名为了hey.txt
+  - git mv -f oldfolder newfolder  
+  If there’s already a newfolder in your repo and you’d like to overwrite it use –force
+  - git add -u newfolder  
+  The -u option at the add command is important here, it’ll update already tracked files/folders.  
   关于重新命名文件夹和文件的命令，可以参见[这个网址][http://www.patrick-wied.at/blog/rename-files-and-folders-with-git]
   
 
