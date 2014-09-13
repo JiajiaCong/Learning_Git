@@ -48,3 +48,13 @@ Git
 - git pull shortname/remote-name,将远程仓库中的内容抓取下来，并且将远端分支自动合并到本地仓库中。
 - git remote rename originalname newname,这个名字是将远程仓库改名，由原来的名字改为新名字
 - git remote rm remote-name/shortname，将remote-name或shortname代表的远程仓库移除。
+
+
+# 一些小技巧
+
+- 在本地删除了一些文件之后，如何通过命令行删除在github网站上的文件。
+  比如想在本地删除hi.txt的文件，可以通过如下的命令来删除github网站上的文件。
+  git rm hi.txt
+  git commit -m"test"
+  git push origin master
+  这样就把本地和github上的hi.txt文件了。
