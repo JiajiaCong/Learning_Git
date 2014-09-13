@@ -16,6 +16,10 @@ Git
 ssh-keygen -t rsa -C "jiajiacong@gmail.com"     
 press enter 并且输入一个密码之后，在C:\Users\用户名下面就会生成一个.ssh的文件夹。打开其中的id_rsa.pub，复制全部内容。浏览器打开自己的github账户，在setting中找到SSH Keys这个选项，然后Add SSH Key，这样你的电脑就受到github的认可了。
 
+在bash中输入    
+ssh -T git@github.com    
+来查看电脑是否已经能够连接到github账户了
+
 
 # 基本的Git命令
 
