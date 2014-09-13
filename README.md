@@ -89,7 +89,9 @@ ssh -T git@github.com
   	git rm hi.txt(虽然已经被删除了，但还是要加上这一行，要让git知道hi.txt已经被删除了)   
 	git add .（这一行可有可无）   
 	git commit -m"test"   
-	git push origin master   
+	git push origin master    
+	有时候，上面的命令，并不能删除掉github网站的文件，可以再git push之前 git commit之后，先git pull origin master一下，再运行git push.
+	
 
 
 - github上有的文件，本地没有，怎么把这些文件复制下来？
