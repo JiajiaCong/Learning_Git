@@ -8,7 +8,9 @@ Git
 
 - ls
 - pwd
-- cd \<project file>
+- mkdir filename 创建新的文件夹
+- cd \<project file\>
+- cd .. 回到上一级的目录
 - git init \<project file>  将某个project file变为repository
 - git status 
 
