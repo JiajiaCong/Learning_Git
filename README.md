@@ -53,7 +53,7 @@ Git
 # 一些小技巧
 
 - 在本地删除了一些文件之后，如何通过命令行删除在github网站上的文件。
-  比如想在本地删除hi.txt的文件，可以通过如下的命令来删除github网站上的文件。
+  比如想在本地删除hi.txt的文件，可以通过如下的命令来删除github网站上的文件。  
   git rm hi.txt  
   git commit -m"test"  
   git push origin master  
