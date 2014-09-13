@@ -3,6 +3,8 @@ Git
 学习的环境是在电脑的E盘下，有一个Github的文件夹，文件夹下面有一个叫做test的文件夹。文件夹里有两个文档，一个是hi.txt，一个是hi2.txt.
 
 
+#基本的Git命令
+
 - ls
 - pwd
 - cd \<project file>
@@ -34,3 +36,12 @@ Git
 -- git mv hi.txt hey.txt,这个命令是修改文件名, 把文件由hi.txt改名为了hey.txt
 
 
+#Git远程仓库的使用
+
+但git clone 某个项目之后，至少可以看到一个名为origin的远程库，Git默认使用这个名字来标识所克隆的原始仓库。
+
+- cd \<copied project\> 进入到克隆到本地的项目
+- git remote 查看远程库的名字，会返回origin这个git默认的该项目的原始仓库
+- git remote -v 可以显示对应的克隆地址，如果有多个远程仓库，那么这个命令会列出所有的远程仓库。但是只有地址是以SSH URL的远程仓库才能推送数据上去。
+- 要添加一个新的远程仓库，可以指定一个简单的名字，以便将来方便引用。运行命令 git remote add [shortname] [url]，运行了这个命令之后，就会有shortname来指代这个远程仓库的名字。比如，git remote add pandoc git@github.com:JiajiaCong/Pandoc.git
+- git fetch shortname，从shortname说指代的仓库中来获取本地仓库中还没有的东西。
