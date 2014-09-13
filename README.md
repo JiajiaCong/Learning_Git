@@ -76,6 +76,7 @@ ssh -T git@github.com
 - git pull shortname/remote-name,将远程仓库中的内容抓取下来，并且将远端分支自动合并到本地仓库中。
 - git remote rename originalname newname,这个名字是将远程仓库改名，由原来的名字改为新名字
 - git remote rm remote-name/shortname，将remote-name或shortname代表的远程仓库移除。
+- 一个很重要的小技巧，在一些时候git push不成功，我们可以先试一下git pull一下，再git push就会成功。
 
 
 # 一些小技巧
