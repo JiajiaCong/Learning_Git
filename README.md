@@ -20,6 +20,8 @@ press enter 并且输入一个密码之后，在C:\Users\用户名下面就会�
 ssh -T git@github.com    
 来查看电脑是否已经能够连接到github账户了
 
+关于SSH Key的操作，可以参见这个[视频][https://www.youtube.com/watch?v=8r_IErxmoUc&index=2&list=PL1F56EA413018EEE1]
+
 
 # 基本的Git命令
 
